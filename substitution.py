@@ -1,6 +1,5 @@
 from string import printable
 import random
-print(printable)
 key = ''.join(random.sample(printable, len(printable)))
  
 def encode(plaintext, key):

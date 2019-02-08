@@ -8,5 +8,4 @@ print("Encrypted text: ", e.decode("windows-1252"))
 if d != data:
     print ("Test 1:  Error: decrypt does not match. %r != %r" % (data, e))
 else:
-    print ("Test 1:  Successful")
-    print (d.decode("UTF-8"))
+    print ("Decrypted text: ", d.decode("UTF-8"))

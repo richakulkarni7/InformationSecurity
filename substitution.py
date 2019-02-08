@@ -12,8 +12,7 @@ def decode(plaintext, key):
 original = "A simple example."
 encoded = encode(original, key)
 decoded = decode(encoded, key)
-print("""The original is: {}
-Encoding it with the key: {}
-Gives: {}
-Decoding it by the same key gives: {}""".format(
-    original, key, encoded, decoded))
+print("The original is:", original)
+print("Encrypting it with the key:", key)
+print("Gives:", encoded)
+print("Decoding it by the same key gives:", decoded)

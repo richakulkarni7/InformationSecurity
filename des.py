@@ -1,5 +1,5 @@
+# pip install pydes
 from pyDes import *
-
 data = input("Please enter text to be encoded: ").encode('ascii')
 k = des("\0\0\0\0\0\0\0\0", CBC, "\0\0\0\0\0\0\0\0", padmode=PAD_PKCS5)
 e = k.encrypt(data)

@@ -1,3 +1,4 @@
+#pip install SymPy
 from sympy.crypto.crypto import encipher_hill, decipher_hill
 from sympy import Matrix
 pt = "ACT"

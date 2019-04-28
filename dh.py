@@ -1,3 +1,6 @@
+#for this to work, go to the pyDH module's folder in the Python directory's lib/site-packages, and find __init__.py.
+#in __init__.py chnage the line to: from .pyDH import DiffieHellman
+
 import pyDH
 d1 = pyDH.DiffieHellman()
 d2 = pyDH.DiffieHellman()
